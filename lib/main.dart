@@ -1,11 +1,4 @@
-// Amplify Flutter Packages
-// eployment state saved successfully.
 
-// GraphQL endpoint: https://7ndnj6xxmjakzjgqfjcce3fqku.appsync-api.us-east-1.amazonaws.com/graphql
-// GraphQL API KEY: da2-eifpckillzakxb6rvogt6344xq
-
-// GraphQL transformer version: 2
-// Generated in previous step (file inside ./lib)
 import 'package:amplify_flutter/amplify_flutter.dart';
 
 import 'package:amplify_api/amplify_api.dart';
