@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "flutterawsappsync",
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    },
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "LAMBDA",
+        "resolver": {
+          "type": "EXISTING",
+          "name": "syncConflictHandler33612f0d-${env}"
+        }
+      }
+    }
+  }
+}

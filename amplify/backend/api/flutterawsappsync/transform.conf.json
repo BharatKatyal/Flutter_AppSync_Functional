@@ -1,0 +1,13 @@
+{
+    "Version": 5,
+    "ElasticsearchWarning": true,
+    "ResolverConfig": {
+        "project": {
+            "ConflictHandler": "LAMBDA",
+            "ConflictDetection": "VERSION",
+            "LambdaConflictHandler": {
+                "name": "syncConflictHandler33612f0d-${env}"
+            }
+        }
+    }
+}
